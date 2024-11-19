@@ -1,0 +1,9 @@
+[package]
+name = "sudoku"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = "0.16.1"
+thiserror = "2.0.3"
+wshared = { version = "0.1.0", path = "../../[libs]/wshared" }
